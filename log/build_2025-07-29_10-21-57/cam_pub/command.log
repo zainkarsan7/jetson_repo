@@ -1,0 +1,4 @@
+Invoking command in '/home/zk/ros2_ws/build/cam_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zk/ros2_ws/build/cam_pub -- -j6 -l6
+Invoked command in '/home/zk/ros2_ws/build/cam_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zk/ros2_ws/build/cam_pub -- -j6 -l6
+Invoking command in '/home/zk/ros2_ws/build/cam_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zk/ros2_ws/build/cam_pub
+Invoked command in '/home/zk/ros2_ws/build/cam_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zk/ros2_ws/build/cam_pub

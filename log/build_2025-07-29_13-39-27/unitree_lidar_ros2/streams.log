@@ -1,0 +1,104 @@
+[0.020s] Invoking command in '/home/zk/ros2_ws/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zk/ros2_ws/src/unitree_lidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/zk/ros2_ws/install/unitree_lidar_ros2
+[0.554s] -- The C compiler identification is GNU 11.4.0
+[1.011s] -- The CXX compiler identification is GNU 11.4.0
+[1.031s] -- Detecting C compiler ABI info
+[1.173s] -- Detecting C compiler ABI info - done
+[1.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.201s] -- Detecting C compile features
+[1.203s] -- Detecting C compile features - done
+[1.215s] -- Detecting CXX compiler ABI info
+[1.374s] -- Detecting CXX compiler ABI info - done
+[1.402s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.403s] -- Detecting CXX compile features
+[1.404s] -- Detecting CXX compile features - done
+[1.412s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.750s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.942s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[2.026s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.035s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.049s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.069s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.097s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.165s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.169s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.330s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.378s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.447s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.461s] -- Looking for pthread.h
+[2.614s] -- Looking for pthread.h - found
+[2.615s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.748s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.751s] -- Found Threads: TRUE  
+[2.855s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.880s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.997s] -- Checking for module 'eigen3'
+[3.019s] --   Found eigen3, version 3.4.0
+[3.087s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.087s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.184s] -- Checking for module 'flann'
+[3.209s] --   Found flann, version 1.9.1
+[3.287s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[3.288s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[5.321s] -- Checking for module 'libusb-1.0'
+[5.351s] --   Found libusb-1.0, version 1.0.25
+[5.412s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[5.416s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.526s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.785s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.798s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.808s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.051s] -- Found Qhull version 8.0.2
+[6.300s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.546s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[6.548s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[6.549s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[6.551s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[6.552s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[6.553s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[6.555s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[6.555s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[6.557s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[6.559s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[6.561s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[6.562s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[6.564s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[6.566s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[6.568s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[6.569s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[6.571s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[6.573s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[6.575s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[6.577s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[6.578s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[6.578s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[6.579s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[6.581s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[6.582s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[6.586s] [33mCMake Warning (dev) at CMakeLists.txt:23 (find_package):
+[6.586s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[6.586s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[6.587s]   command to set the policy and suppress this warning.
+[6.587s] 
+[6.587s]   CMake variable PCL_ROOT is set to:
+[6.587s] 
+[6.587s]     /usr
+[6.588s] 
+[6.588s]   For compatibility, CMake is ignoring the variable.
+[6.588s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.589s] [0m
+[6.605s] -- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.979s] -- Configuring done
+[7.186s] -- Generating done
+[7.221s] -- Build files have been written to: /home/zk/ros2_ws/build/unitree_lidar_ros2
+[7.278s] Invoked command in '/home/zk/ros2_ws/build/unitree_lidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zk/ros2_ws/src/unitree_lidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/zk/ros2_ws/install/unitree_lidar_ros2
+[7.290s] Invoking command in '/home/zk/ros2_ws/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zk/ros2_ws/build/unitree_lidar_ros2 -- -j6 -l6
+[7.430s] [ 50%] [32mBuilding CXX object CMakeFiles/unitree_lidar_ros2_node.dir/src/unitree_lidar_ros2_node.cpp.o[0m
+[10.937s] In file included from [01m[K/home/zk/ros2_ws/src/unitree_lidar_ros2/src/unitree_lidar_ros2_node.cpp:5[m[K:
+[10.937s] [01m[K/home/zk/ros2_ws/src/unitree_lidar_ros2/include/unitree_lidar_ros2.h:33:10:[m[K [01;31m[Kfatal error: [m[Kunitree_lidar_sdk_pcl.h: No such file or directory
+[10.937s]    33 | #include [01;31m[K"unitree_lidar_sdk_pcl.h"[m[K
+[10.938s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.938s] compilation terminated.
+[10.966s] gmake[2]: *** [CMakeFiles/unitree_lidar_ros2_node.dir/build.make:76: CMakeFiles/unitree_lidar_ros2_node.dir/src/unitree_lidar_ros2_node.cpp.o] Error 1
+[10.967s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/unitree_lidar_ros2_node.dir/all] Error 2
+[10.967s] gmake: *** [Makefile:146: all] Error 2
+[10.975s] Invoked command in '/home/zk/ros2_ws/build/unitree_lidar_ros2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zk/ros2_ws/build/unitree_lidar_ros2 -- -j6 -l6

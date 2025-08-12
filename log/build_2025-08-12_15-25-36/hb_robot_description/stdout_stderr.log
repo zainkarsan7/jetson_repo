@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/meshes
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/meshes/board.stl
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/urdf
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/urdf/hb_robot.urdf.xacro
+-- Installing: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/urdf/hb_robot.urdf
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/urdf/hb_robot_macro.xacro
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/ament_index/resource_index/package_run_dependencies/hb_robot_description
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/ament_index/resource_index/parent_prefix_path/hb_robot_description
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/environment/path.sh
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/environment/path.dsv
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/local_setup.bash
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/local_setup.sh
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/local_setup.zsh
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/local_setup.dsv
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/package.dsv
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/ament_index/resource_index/packages/hb_robot_description
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/cmake/hb_robot_descriptionConfig.cmake
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/cmake/hb_robot_descriptionConfig-version.cmake
+-- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/package.xml

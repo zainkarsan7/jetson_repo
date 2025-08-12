@@ -1,0 +1,367 @@
+[0.000000] (-) TimerEvent: {}
+[0.000572] (-) JobUnselected: {'identifier': 'cam_pub'}
+[0.001007] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001237] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.001515] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.001597] (-) JobUnselected: {'identifier': 'unitree_lidar_ros2'}
+[0.001666] (azure_kinect_ros2_driver) JobQueued: {'identifier': 'azure_kinect_ros2_driver', 'dependencies': OrderedDict()}
+[0.001736] (azure_kinect_ros2_driver) JobStarted: {'identifier': 'azure_kinect_ros2_driver'}
+[0.014313] (azure_kinect_ros2_driver) JobProgress: {'identifier': 'azure_kinect_ros2_driver', 'progress': 'cmake'}
+[0.015621] (azure_kinect_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver', '-DCMAKE_INSTALL_PREFIX=/home/zk/ros2_ws/install/azure_kinect_ros2_driver'], 'cwd': '/home/zk/ros2_ws/build/azure_kinect_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zk'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zk'), ('OLDPWD', '/home/zk/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('SYSTEMD_EXEC_PID', '2589'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zk-desktop:@/tmp/.ICE-unix/2565,unix/zk-desktop:/tmp/.ICE-unix/2565'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eded3030_8c04_41d8_8c31_ae0d8d27ff31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zk/ros2_ws/build/azure_kinect_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099459] (-) TimerEvent: {}
+[0.111654] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199639] (-) TimerEvent: {}
+[0.223157] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.243681] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299829] (-) TimerEvent: {}
+[0.379239] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.399913] (-) TimerEvent: {}
+[0.403844] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.404760] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.406075] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.416831] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500122] (-) TimerEvent: {}
+[0.580644] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.600205] (-) TimerEvent: {}
+[0.606084] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.607119] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.608741] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.628609] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700367] (-) TimerEvent: {}
+[0.800929] (-) TimerEvent: {}
+[0.901502] (-) TimerEvent: {}
+[0.956636] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.001656] (-) TimerEvent: {}
+[1.102260] (-) TimerEvent: {}
+[1.202924] (-) TimerEvent: {}
+[1.206629] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.303072] (-) TimerEvent: {}
+[1.335726] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.349064] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.374397] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.403144] (-) TimerEvent: {}
+[1.408087] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.453818] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.503453] (-) TimerEvent: {}
+[1.570107] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.580766] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.603533] (-) TimerEvent: {}
+[1.650897] (azure_kinect_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.674435] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.703721] (-) TimerEvent: {}
+[1.804353] (-) TimerEvent: {}
+[1.810098] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.810833] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.904538] (-) TimerEvent: {}
+[1.956349] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.959496] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.004665] (-) TimerEvent: {}
+[2.105276] (-) TimerEvent: {}
+[2.148465] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.205397] (-) TimerEvent: {}
+[2.233649] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[2.305582] (-) TimerEvent: {}
+[2.322364] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.405683] (-) TimerEvent: {}
+[2.506221] (-) TimerEvent: {}
+[2.554114] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.15 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.586442] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.590069] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.590433] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.597548] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[2.604360] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.606295] (-) TimerEvent: {}
+[2.639474] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.639757] (azure_kinect_ros2_driver) StderrLine: {'line': b'\x1b[0mk4a found\x1b[0m\n'}
+[2.706481] (-) TimerEvent: {}
+[2.807107] (-) TimerEvent: {}
+[2.823965] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.907267] (-) TimerEvent: {}
+[3.007866] (-) TimerEvent: {}
+[3.040532] (azure_kinect_ros2_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.041646] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/include>\n'}
+[3.041910] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.045887] (azure_kinect_ros2_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.050821] (azure_kinect_ros2_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.054157] (azure_kinect_ros2_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.066335] (azure_kinect_ros2_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.066678] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.069782] (azure_kinect_ros2_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.075729] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.107940] (-) TimerEvent: {}
+[3.124839] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[3.140364] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/zk/ros2_ws/build/azure_kinect_ros2_driver\n'}
+[3.166724] (azure_kinect_ros2_driver) CommandEnded: {'returncode': 0}
+[3.168052] (azure_kinect_ros2_driver) JobProgress: {'identifier': 'azure_kinect_ros2_driver', 'progress': 'build'}
+[3.170377] (azure_kinect_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zk/ros2_ws/build/azure_kinect_ros2_driver', '--', '-j6', '-l6'], 'cwd': '/home/zk/ros2_ws/build/azure_kinect_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zk'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zk'), ('OLDPWD', '/home/zk/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('SYSTEMD_EXEC_PID', '2589'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zk-desktop:@/tmp/.ICE-unix/2565,unix/zk-desktop:/tmp/.ICE-unix/2565'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eded3030_8c04_41d8_8c31_ae0d8d27ff31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zk/ros2_ws/build/azure_kinect_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.208134] (-) TimerEvent: {}
+[3.265645] (azure_kinect_ros2_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/azure_kinect_node.dir/src/k4a_ros_node.cpp.o\x1b[0m\n'}
+[3.267434] (azure_kinect_ros2_driver) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/azure_kinect_node.dir/src/k4a_ros_device_params.cpp.o\x1b[0m\n'}
+[3.267762] (azure_kinect_ros2_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/azure_kinect_node.dir/src/k4a_calibration_transform_data.cpp.o\x1b[0m\n'}
+[3.267907] (azure_kinect_ros2_driver) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/azure_kinect_node.dir/src/k4a_ros_device.cpp.o\x1b[0m\n'}
+[3.285249] (azure_kinect_ros2_driver) StdoutLine: {'line': b'[ 80%] Built target ament_cmake_python_copy_azure_kinect_ros2_driver\n'}
+[3.308317] (-) TimerEvent: {}
+[3.408952] (-) TimerEvent: {}
+[3.509658] (-) TimerEvent: {}
+[3.610258] (-) TimerEvent: {}
+[3.711068] (-) TimerEvent: {}
+[3.766573] (azure_kinect_ros2_driver) StdoutLine: {'line': b'running egg_info\n'}
+[3.768286] (azure_kinect_ros2_driver) StdoutLine: {'line': b'creating azure_kinect_ros2_driver.egg-info\n'}
+[3.768703] (azure_kinect_ros2_driver) StdoutLine: {'line': b'writing azure_kinect_ros2_driver.egg-info/PKG-INFO\n'}
+[3.769071] (azure_kinect_ros2_driver) StdoutLine: {'line': b'writing dependency_links to azure_kinect_ros2_driver.egg-info/dependency_links.txt\n'}
+[3.769389] (azure_kinect_ros2_driver) StdoutLine: {'line': b'writing top-level names to azure_kinect_ros2_driver.egg-info/top_level.txt\n'}
+[3.769842] (azure_kinect_ros2_driver) StdoutLine: {'line': b"writing manifest file 'azure_kinect_ros2_driver.egg-info/SOURCES.txt'\n"}
+[3.775418] (azure_kinect_ros2_driver) StdoutLine: {'line': b"reading manifest file 'azure_kinect_ros2_driver.egg-info/SOURCES.txt'\n"}
+[3.776327] (azure_kinect_ros2_driver) StdoutLine: {'line': b"writing manifest file 'azure_kinect_ros2_driver.egg-info/SOURCES.txt'\n"}
+[3.811241] (-) TimerEvent: {}
+[3.850616] (azure_kinect_ros2_driver) StdoutLine: {'line': b'[ 80%] Built target ament_cmake_python_build_azure_kinect_ros2_driver_egg\n'}
+[3.911447] (-) TimerEvent: {}
+[3.985842] (azure_kinect_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_calibration_transform_data.cpp:18\x1b[m\x1b[K:\n'}
+[3.986284] (azure_kinect_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.986437] (azure_kinect_ros2_driver) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[3.986560] (azure_kinect_ros2_driver) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.011631] (-) TimerEvent: {}
+[4.112566] (-) TimerEvent: {}
+[4.213273] (-) TimerEvent: {}
+[4.313978] (-) TimerEvent: {}
+[4.414744] (-) TimerEvent: {}
+[4.515416] (-) TimerEvent: {}
+[4.627031] (-) TimerEvent: {}
+[4.727812] (-) TimerEvent: {}
+[4.828519] (-) TimerEvent: {}
+[4.929242] (-) TimerEvent: {}
+[5.029964] (-) TimerEvent: {}
+[5.130693] (-) TimerEvent: {}
+[5.231408] (-) TimerEvent: {}
+[5.332118] (-) TimerEvent: {}
+[5.432833] (-) TimerEvent: {}
+[5.533529] (-) TimerEvent: {}
+[5.634487] (-) TimerEvent: {}
+[5.735401] (-) TimerEvent: {}
+[5.836301] (-) TimerEvent: {}
+[5.937238] (-) TimerEvent: {}
+[6.038183] (-) TimerEvent: {}
+[6.139147] (-) TimerEvent: {}
+[6.240115] (-) TimerEvent: {}
+[6.341039] (-) TimerEvent: {}
+[6.441916] (-) TimerEvent: {}
+[6.542881] (-) TimerEvent: {}
+[6.643856] (-) TimerEvent: {}
+[6.744776] (-) TimerEvent: {}
+[6.845737] (-) TimerEvent: {}
+[6.946672] (-) TimerEvent: {}
+[7.047614] (-) TimerEvent: {}
+[7.148534] (-) TimerEvent: {}
+[7.249463] (-) TimerEvent: {}
+[7.350430] (-) TimerEvent: {}
+[7.451405] (-) TimerEvent: {}
+[7.552340] (-) TimerEvent: {}
+[7.653243] (-) TimerEvent: {}
+[7.754553] (-) TimerEvent: {}
+[7.855488] (-) TimerEvent: {}
+[7.956405] (-) TimerEvent: {}
+[8.057361] (-) TimerEvent: {}
+[8.158287] (-) TimerEvent: {}
+[8.259229] (-) TimerEvent: {}
+[8.360184] (-) TimerEvent: {}
+[8.461132] (-) TimerEvent: {}
+[8.562073] (-) TimerEvent: {}
+[8.663010] (-) TimerEvent: {}
+[8.764035] (-) TimerEvent: {}
+[8.864987] (-) TimerEvent: {}
+[8.965924] (-) TimerEvent: {}
+[9.066870] (-) TimerEvent: {}
+[9.167851] (-) TimerEvent: {}
+[9.268772] (-) TimerEvent: {}
+[9.369746] (-) TimerEvent: {}
+[9.470674] (-) TimerEvent: {}
+[9.571432] (-) TimerEvent: {}
+[9.677438] (-) TimerEvent: {}
+[9.778116] (-) TimerEvent: {}
+[9.878795] (-) TimerEvent: {}
+[9.979516] (-) TimerEvent: {}
+[10.017768] (azure_kinect_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:6\x1b[m\x1b[K:\n'}
+[10.018240] (azure_kinect_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/include/azure_kinect_ros2_driver/k4a_ros_device.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KK4AROS2Device::K4AROS2Device()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.018386] (azure_kinect_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/include/azure_kinect_ros2_driver/k4a_ros_device.h:153:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KK4AROS2Device::last_capture_time_usec_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.018513] (azure_kinect_ros2_driver) StderrLine: {'line': b'  153 |     std::atomic_int64_t \x1b[01;35m\x1b[Klast_capture_time_usec_\x1b[m\x1b[K;\n'}
+[10.018627] (azure_kinect_ros2_driver) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.018735] (azure_kinect_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/include/azure_kinect_ros2_driver/k4a_ros_device.h:110:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::QoS K4AROS2Device::qos_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.018845] (azure_kinect_ros2_driver) StderrLine: {'line': b'  110 |     rclcpp::QoS \x1b[01;35m\x1b[Kqos_\x1b[m\x1b[K;\n'}
+[10.018948] (azure_kinect_ros2_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.019047] (azure_kinect_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:35:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.019151] (azure_kinect_ros2_driver) StderrLine: {'line': b'   35 | \x1b[01;35m\x1b[KK4AROS2Device\x1b[m\x1b[K::K4AROS2Device()\n'}
+[10.019393] (azure_kinect_ros2_driver) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.019507] (azure_kinect_ros2_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:6\x1b[m\x1b[K:\n'}
+[10.019609] (azure_kinect_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/include/azure_kinect_ros2_driver/k4a_ros_device.h:156:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KK4AROS2Device::last_imu_time_usec_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.019738] (azure_kinect_ros2_driver) StderrLine: {'line': b'  156 |     std::atomic_uint64_t \x1b[01;35m\x1b[Klast_imu_time_usec_\x1b[m\x1b[K;\n'}
+[10.019844] (azure_kinect_ros2_driver) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.019943] (azure_kinect_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/include/azure_kinect_ros2_driver/k4a_ros_device.h:135:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbool K4AROS2Device::process_cloud_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.020061] (azure_kinect_ros2_driver) StderrLine: {'line': b'  135 |     bool \x1b[01;35m\x1b[Kprocess_cloud_\x1b[m\x1b[K;\n'}
+[10.020159] (azure_kinect_ros2_driver) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.020255] (azure_kinect_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:35:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.020355] (azure_kinect_ros2_driver) StderrLine: {'line': b'   35 | \x1b[01;35m\x1b[KK4AROS2Device\x1b[m\x1b[K::K4AROS2Device()\n'}
+[10.020455] (azure_kinect_ros2_driver) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.058422] (azure_kinect_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:205:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcatching polymorphic type \xe2\x80\x98\x1b[01m\x1b[Kclass std::exception\x1b[m\x1b[K\xe2\x80\x99 by value [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=\x07-Wcatch-value=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.058872] (azure_kinect_ros2_driver) StderrLine: {'line': b'  205 |       catch (\x1b[01;35m\x1b[Kexception\x1b[m\x1b[K)\n'}
+[10.059038] (azure_kinect_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.079699] (-) TimerEvent: {}
+[10.180646] (-) TimerEvent: {}
+[10.218365] (azure_kinect_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid K4AROS2Device::framePublisherThread()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.219316] (azure_kinect_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:776:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kwait_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.219672] (azure_kinect_ros2_driver) StderrLine: {'line': b'  776 |   k4a_wait_result_t \x1b[01;35m\x1b[Kwait_result\x1b[m\x1b[K;\n'}
+[10.219854] (azure_kinect_ros2_driver) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.239198] (azure_kinect_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid K4AROS2Device::imuPublisherThread()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.239589] (azure_kinect_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zk/ros2_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:1218:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::__atomic_base<long unsigned int>::__int_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::__atomic_base<long int>::__int_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.239745] (azure_kinect_ros2_driver) StderrLine: {'line': b' 1218 |       while (\x1b[01;35m\x1b[Klast_imu_time_usec_ <= last_capture_time_usec_\x1b[m\x1b[K && !imu_stream_end_of_file_)\n'}
+[10.239867] (azure_kinect_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.280765] (-) TimerEvent: {}
+[10.381357] (-) TimerEvent: {}
+[10.482037] (-) TimerEvent: {}
+[10.582721] (-) TimerEvent: {}
+[10.683405] (-) TimerEvent: {}
+[10.784051] (-) TimerEvent: {}
+[10.884705] (-) TimerEvent: {}
+[10.985387] (-) TimerEvent: {}
+[11.086072] (-) TimerEvent: {}
+[11.186706] (-) TimerEvent: {}
+[11.287382] (-) TimerEvent: {}
+[11.388036] (-) TimerEvent: {}
+[11.488672] (-) TimerEvent: {}
+[11.589298] (-) TimerEvent: {}
+[11.689939] (-) TimerEvent: {}
+[11.790562] (-) TimerEvent: {}
+[11.891219] (-) TimerEvent: {}
+[11.992062] (-) TimerEvent: {}
+[12.092835] (-) TimerEvent: {}
+[12.193455] (-) TimerEvent: {}
+[12.294083] (-) TimerEvent: {}
+[12.394699] (-) TimerEvent: {}
+[12.495349] (-) TimerEvent: {}
+[12.595953] (-) TimerEvent: {}
+[12.696594] (-) TimerEvent: {}
+[12.797229] (-) TimerEvent: {}
+[12.897883] (-) TimerEvent: {}
+[12.998638] (-) TimerEvent: {}
+[13.099438] (-) TimerEvent: {}
+[13.200224] (-) TimerEvent: {}
+[13.300999] (-) TimerEvent: {}
+[13.401768] (-) TimerEvent: {}
+[13.502562] (-) TimerEvent: {}
+[13.603435] (-) TimerEvent: {}
+[13.704226] (-) TimerEvent: {}
+[13.805012] (-) TimerEvent: {}
+[13.905786] (-) TimerEvent: {}
+[14.006571] (-) TimerEvent: {}
+[14.107420] (-) TimerEvent: {}
+[14.208210] (-) TimerEvent: {}
+[14.308997] (-) TimerEvent: {}
+[14.409783] (-) TimerEvent: {}
+[14.510576] (-) TimerEvent: {}
+[14.611364] (-) TimerEvent: {}
+[14.712126] (-) TimerEvent: {}
+[14.812904] (-) TimerEvent: {}
+[14.913692] (-) TimerEvent: {}
+[15.014479] (-) TimerEvent: {}
+[15.115303] (-) TimerEvent: {}
+[15.216068] (-) TimerEvent: {}
+[15.316832] (-) TimerEvent: {}
+[15.417598] (-) TimerEvent: {}
+[15.518358] (-) TimerEvent: {}
+[15.619113] (-) TimerEvent: {}
+[15.719928] (-) TimerEvent: {}
+[15.820708] (-) TimerEvent: {}
+[15.921484] (-) TimerEvent: {}
+[16.022259] (-) TimerEvent: {}
+[16.123060] (-) TimerEvent: {}
+[16.223879] (-) TimerEvent: {}
+[16.324662] (-) TimerEvent: {}
+[16.425440] (-) TimerEvent: {}
+[16.526210] (-) TimerEvent: {}
+[16.626973] (-) TimerEvent: {}
+[16.727762] (-) TimerEvent: {}
+[16.828515] (-) TimerEvent: {}
+[16.929267] (-) TimerEvent: {}
+[17.030013] (-) TimerEvent: {}
+[17.130790] (-) TimerEvent: {}
+[17.231566] (-) TimerEvent: {}
+[17.332296] (-) TimerEvent: {}
+[17.433036] (-) TimerEvent: {}
+[17.533813] (-) TimerEvent: {}
+[17.634606] (-) TimerEvent: {}
+[17.735401] (-) TimerEvent: {}
+[17.836069] (-) TimerEvent: {}
+[17.936831] (-) TimerEvent: {}
+[18.037592] (-) TimerEvent: {}
+[18.138358] (-) TimerEvent: {}
+[18.239095] (-) TimerEvent: {}
+[18.339873] (-) TimerEvent: {}
+[18.440650] (-) TimerEvent: {}
+[18.541437] (-) TimerEvent: {}
+[18.549493] (azure_kinect_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable azure_kinect_node\x1b[0m\n'}
+[18.641607] (-) TimerEvent: {}
+[18.742319] (-) TimerEvent: {}
+[18.843139] (-) TimerEvent: {}
+[18.943887] (-) TimerEvent: {}
+[19.044604] (-) TimerEvent: {}
+[19.145327] (-) TimerEvent: {}
+[19.201105] (azure_kinect_ros2_driver) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408\n'}
+[19.216520] (azure_kinect_ros2_driver) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408\n'}
+[19.245443] (-) TimerEvent: {}
+[19.346073] (-) TimerEvent: {}
+[19.446878] (-) TimerEvent: {}
+[19.547717] (-) TimerEvent: {}
+[19.648514] (-) TimerEvent: {}
+[19.749318] (-) TimerEvent: {}
+[19.850141] (-) TimerEvent: {}
+[19.950965] (-) TimerEvent: {}
+[20.051786] (-) TimerEvent: {}
+[20.152439] (-) TimerEvent: {}
+[20.253073] (-) TimerEvent: {}
+[20.353730] (-) TimerEvent: {}
+[20.454400] (-) TimerEvent: {}
+[20.555051] (-) TimerEvent: {}
+[20.655720] (-) TimerEvent: {}
+[20.673376] (azure_kinect_ros2_driver) StdoutLine: {'line': b'[100%] Built target azure_kinect_node\n'}
+[20.700405] (azure_kinect_ros2_driver) CommandEnded: {'returncode': 0}
+[20.702587] (azure_kinect_ros2_driver) JobProgress: {'identifier': 'azure_kinect_ros2_driver', 'progress': 'install'}
+[20.721048] (azure_kinect_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zk/ros2_ws/build/azure_kinect_ros2_driver'], 'cwd': '/home/zk/ros2_ws/build/azure_kinect_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zk'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zk'), ('OLDPWD', '/home/zk/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('SYSTEMD_EXEC_PID', '2589'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zk-desktop:@/tmp/.ICE-unix/2565,unix/zk-desktop:/tmp/.ICE-unix/2565'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eded3030_8c04_41d8_8c31_ae0d8d27ff31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zk/ros2_ws/build/azure_kinect_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[20.740454] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.740922] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/lib/azure_kinect_ros2_driver/azure_kinect_node\n'}
+[20.747146] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/zk/ros2_ws/install/azure_kinect_ros2_driver/lib/azure_kinect_ros2_driver/azure_kinect_node" to ""\n'}
+[20.747606] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/environment/pythonpath.sh\n'}
+[20.747965] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/environment/pythonpath.dsv\n'}
+[20.748278] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/local/lib/python3.10/dist-packages/azure_kinect_ros2_driver-0.0.1-py3.10.egg-info\n'}
+[20.748590] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/local/lib/python3.10/dist-packages/azure_kinect_ros2_driver-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[20.748929] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/local/lib/python3.10/dist-packages/azure_kinect_ros2_driver-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[20.749226] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/local/lib/python3.10/dist-packages/azure_kinect_ros2_driver-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[20.749524] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/local/lib/python3.10/dist-packages/azure_kinect_ros2_driver-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[20.749810] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/local/lib/python3.10/dist-packages/azure_kinect_ros2_driver\n'}
+[20.750036] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/local/lib/python3.10/dist-packages/azure_kinect_ros2_driver/__init__.py\n'}
+[20.755822] (-) TimerEvent: {}
+[20.833737] (azure_kinect_ros2_driver) StdoutLine: {'line': b"Listing '/home/zk/ros2_ws/install/azure_kinect_ros2_driver/local/lib/python3.10/dist-packages/azure_kinect_ros2_driver'...\n"}
+[20.834177] (azure_kinect_ros2_driver) StdoutLine: {'line': b"Compiling '/home/zk/ros2_ws/install/azure_kinect_ros2_driver/local/lib/python3.10/dist-packages/azure_kinect_ros2_driver/__init__.py'...\n"}
+[20.845045] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/lib/azure_kinect_ros2_driver/test_azure_kinect_subscriber.py\n'}
+[20.845449] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/launch\n'}
+[20.845745] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/launch/k4a_test_record_launch.py\n'}
+[20.845991] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/launch/k4a_device_launch.py\n'}
+[20.846235] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/urdf\n'}
+[20.846406] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/urdf/azure_kinect.urdf.xacro\n'}
+[20.846809] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/ament_index/resource_index/package_run_dependencies/azure_kinect_ros2_driver\n'}
+[20.847158] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/ament_index/resource_index/parent_prefix_path/azure_kinect_ros2_driver\n'}
+[20.847517] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/environment/ament_prefix_path.sh\n'}
+[20.847988] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[20.848302] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/environment/path.sh\n'}
+[20.848580] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/environment/path.dsv\n'}
+[20.848849] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/local_setup.bash\n'}
+[20.849119] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/local_setup.sh\n'}
+[20.849408] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/local_setup.zsh\n'}
+[20.849675] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/local_setup.dsv\n'}
+[20.849942] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/package.dsv\n'}
+[20.850327] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/ament_index/resource_index/packages/azure_kinect_ros2_driver\n'}
+[20.850698] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/cmake/azure_kinect_ros2_driverConfig.cmake\n'}
+[20.850919] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/cmake/azure_kinect_ros2_driverConfig-version.cmake\n'}
+[20.851174] (azure_kinect_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/azure_kinect_ros2_driver/share/azure_kinect_ros2_driver/package.xml\n'}
+[20.856242] (azure_kinect_ros2_driver) CommandEnded: {'returncode': 0}
+[20.857802] (-) TimerEvent: {}
+[20.915605] (azure_kinect_ros2_driver) JobEnded: {'identifier': 'azure_kinect_ros2_driver', 'rc': 0}
+[20.917906] (-) EventReactorShutdown: {}

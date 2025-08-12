@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: hb_robot_description
+    relative_path: urdf/hb_robot.urdf
+  SRDF:
+    relative_path: config/hb_robot.srdf
+  CONFIG:
+    author_name: zk
+    author_email: zainkarsan7@gmail.com
+    generated_timestamp: 1519152260

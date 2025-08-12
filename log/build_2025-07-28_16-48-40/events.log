@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.001431] (cam_pub) JobQueued: {'identifier': 'cam_pub', 'dependencies': OrderedDict()}
+[0.001802] (cam_pub) JobStarted: {'identifier': 'cam_pub'}
+[0.016746] (cam_pub) JobProgress: {'identifier': 'cam_pub', 'progress': 'cmake'}
+[0.018079] (cam_pub) JobProgress: {'identifier': 'cam_pub', 'progress': 'build'}
+[0.019701] (cam_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zk/ros2_ws/build/cam_pub', '--', '-j6', '-l6'], 'cwd': '/home/zk/ros2_ws/build/cam_pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zk'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zk'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '3845'), ('SYSTEMD_EXEC_PID', '4013'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7725'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zk/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zk'), ('JOURNAL_STREAM', '8:45888'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/zk/.local/bin:/opt/ros/humble/bin:/home/zk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zk-desktop:@/tmp/.ICE-unix/3989,unix/zk-desktop:/tmp/.ICE-unix/3989'), ('INVOCATION_ID', 'a8395a1e29f844cfb8e150202ed55886'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-325933e576.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zk/ros2_ws/install/cam_pub:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zk/ros2_ws/build/cam_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zk/ros2_ws/install/cam_pub:/opt/ros/humble')]), 'shell': False}
+[0.071136] (cam_pub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099254] (-) TimerEvent: {}
+[0.199871] (-) TimerEvent: {}
+[0.300731] (-) TimerEvent: {}
+[0.345754] (cam_pub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400923] (-) TimerEvent: {}
+[0.417463] (cam_pub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.421914] (cam_pub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.431865] (cam_pub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.447474] (cam_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.467019] (cam_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.501006] (-) TimerEvent: {}
+[0.518665] (cam_pub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.520937] (cam_pub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.601206] (-) TimerEvent: {}
+[0.680564] (cam_pub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.701294] (-) TimerEvent: {}
+[0.761269] (cam_pub) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.801420] (-) TimerEvent: {}
+[0.838447] (cam_pub) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.852939] (cam_pub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.901567] (-) TimerEvent: {}
+[0.986491] (cam_pub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.987072] (cam_pub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/zk/ros2_ws/src/cam_pub/include\n'}
+[0.987267] (cam_pub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.987621] (cam_pub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.988879] (cam_pub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.989115] (cam_pub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.989421] (cam_pub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.990710] (cam_pub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.001702] (-) TimerEvent: {}
+[1.018691] (cam_pub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.028841] (cam_pub) StdoutLine: {'line': b'-- Build files have been written to: /home/zk/ros2_ws/build/cam_pub\n'}
+[1.086774] (cam_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target z_talk\x1b[0m\n'}
+[1.087799] (cam_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target webcam_pub\x1b[0m\n'}
+[1.102137] (-) TimerEvent: {}
+[1.125912] (cam_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/z_talk.dir/src/zain_pub.cpp.o\x1b[0m\n'}
+[1.126475] (cam_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/webcam_pub.dir/src/webcam_publisher.cpp.o\x1b[0m\n'}
+[1.202327] (-) TimerEvent: {}
+[1.302984] (-) TimerEvent: {}
+[1.403656] (-) TimerEvent: {}
+[1.504352] (-) TimerEvent: {}
+[1.605003] (-) TimerEvent: {}
+[1.705661] (-) TimerEvent: {}
+[1.806311] (-) TimerEvent: {}
+[1.906999] (-) TimerEvent: {}
+[2.007697] (-) TimerEvent: {}
+[2.108422] (-) TimerEvent: {}
+[2.209078] (-) TimerEvent: {}
+[2.309787] (-) TimerEvent: {}
+[2.410571] (-) TimerEvent: {}
+[2.511237] (-) TimerEvent: {}
+[2.611923] (-) TimerEvent: {}
+[2.712624] (-) TimerEvent: {}
+[2.813298] (-) TimerEvent: {}
+[2.913961] (-) TimerEvent: {}
+[3.014642] (-) TimerEvent: {}
+[3.115330] (-) TimerEvent: {}
+[3.216021] (-) TimerEvent: {}
+[3.316684] (-) TimerEvent: {}
+[3.417370] (-) TimerEvent: {}
+[3.518057] (-) TimerEvent: {}
+[3.618746] (-) TimerEvent: {}
+[3.719433] (-) TimerEvent: {}
+[3.820129] (-) TimerEvent: {}
+[3.920803] (-) TimerEvent: {}
+[4.021489] (-) TimerEvent: {}
+[4.122203] (-) TimerEvent: {}
+[4.222958] (-) TimerEvent: {}
+[4.323627] (-) TimerEvent: {}
+[4.424325] (-) TimerEvent: {}
+[4.524991] (-) TimerEvent: {}
+[4.625663] (-) TimerEvent: {}
+[4.726333] (-) TimerEvent: {}
+[4.827019] (-) TimerEvent: {}
+[4.927715] (-) TimerEvent: {}
+[5.028434] (-) TimerEvent: {}
+[5.129126] (-) TimerEvent: {}
+[5.229820] (-) TimerEvent: {}
+[5.330509] (-) TimerEvent: {}
+[5.431206] (-) TimerEvent: {}
+[5.531889] (-) TimerEvent: {}
+[5.632591] (-) TimerEvent: {}
+[5.733271] (-) TimerEvent: {}
+[5.833967] (-) TimerEvent: {}
+[5.934647] (-) TimerEvent: {}
+[6.035340] (-) TimerEvent: {}
+[6.136060] (-) TimerEvent: {}
+[6.236771] (-) TimerEvent: {}
+[6.337460] (-) TimerEvent: {}
+[6.438146] (-) TimerEvent: {}
+[6.538830] (-) TimerEvent: {}
+[6.639498] (-) TimerEvent: {}
+[6.740150] (-) TimerEvent: {}
+[6.840832] (-) TimerEvent: {}
+[6.941509] (-) TimerEvent: {}
+[7.042187] (-) TimerEvent: {}
+[7.142858] (-) TimerEvent: {}
+[7.243552] (-) TimerEvent: {}
+[7.344258] (-) TimerEvent: {}
+[7.445019] (-) TimerEvent: {}
+[7.545712] (-) TimerEvent: {}
+[7.646366] (-) TimerEvent: {}
+[7.747054] (-) TimerEvent: {}
+[7.847745] (-) TimerEvent: {}
+[7.948470] (-) TimerEvent: {}
+[8.049138] (-) TimerEvent: {}
+[8.149805] (-) TimerEvent: {}
+[8.250463] (-) TimerEvent: {}
+[8.351122] (-) TimerEvent: {}
+[8.451788] (-) TimerEvent: {}
+[8.552471] (-) TimerEvent: {}
+[8.653128] (-) TimerEvent: {}
+[8.753784] (-) TimerEvent: {}
+[8.854437] (-) TimerEvent: {}
+[8.955092] (-) TimerEvent: {}
+[9.055750] (-) TimerEvent: {}
+[9.156440] (-) TimerEvent: {}
+[9.257104] (-) TimerEvent: {}
+[9.357757] (-) TimerEvent: {}
+[9.458417] (-) TimerEvent: {}
+[9.559084] (-) TimerEvent: {}
+[9.659789] (-) TimerEvent: {}
+[9.760496] (-) TimerEvent: {}
+[9.861195] (-) TimerEvent: {}
+[9.961886] (-) TimerEvent: {}
+[9.980981] (cam_pub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable z_talk\x1b[0m\n'}
+[10.062064] (-) TimerEvent: {}
+[10.162734] (-) TimerEvent: {}
+[10.263415] (-) TimerEvent: {}
+[10.335939] (cam_pub) StdoutLine: {'line': b'[ 75%] Built target z_talk\n'}
+[10.363574] (-) TimerEvent: {}
+[10.464239] (-) TimerEvent: {}
+[10.564950] (-) TimerEvent: {}
+[10.665752] (-) TimerEvent: {}
+[10.766559] (-) TimerEvent: {}
+[10.867391] (-) TimerEvent: {}
+[10.968204] (-) TimerEvent: {}
+[11.068908] (-) TimerEvent: {}
+[11.169711] (-) TimerEvent: {}
+[11.270505] (-) TimerEvent: {}
+[11.301493] (cam_pub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable webcam_pub\x1b[0m\n'}
+[11.370696] (-) TimerEvent: {}
+[11.471412] (-) TimerEvent: {}
+[11.572294] (-) TimerEvent: {}
+[11.589709] (cam_pub) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408\n'}
+[11.672469] (-) TimerEvent: {}
+[11.773290] (-) TimerEvent: {}
+[11.874125] (-) TimerEvent: {}
+[11.974973] (-) TimerEvent: {}
+[12.075807] (-) TimerEvent: {}
+[12.176701] (-) TimerEvent: {}
+[12.277540] (-) TimerEvent: {}
+[12.378385] (-) TimerEvent: {}
+[12.479231] (-) TimerEvent: {}
+[12.580092] (-) TimerEvent: {}
+[12.590635] (cam_pub) StdoutLine: {'line': b'[100%] Built target webcam_pub\n'}
+[12.619598] (cam_pub) CommandEnded: {'returncode': 0}
+[12.621775] (cam_pub) JobProgress: {'identifier': 'cam_pub', 'progress': 'install'}
+[12.639573] (cam_pub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zk/ros2_ws/build/cam_pub'], 'cwd': '/home/zk/ros2_ws/build/cam_pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zk'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zk'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '3845'), ('SYSTEMD_EXEC_PID', '4013'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7725'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zk/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zk'), ('JOURNAL_STREAM', '8:45888'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/zk/.local/bin:/opt/ros/humble/bin:/home/zk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zk-desktop:@/tmp/.ICE-unix/3989,unix/zk-desktop:/tmp/.ICE-unix/3989'), ('INVOCATION_ID', 'a8395a1e29f844cfb8e150202ed55886'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-325933e576.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zk/ros2_ws/install/cam_pub:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zk/ros2_ws/build/cam_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zk/ros2_ws/install/cam_pub:/opt/ros/humble')]), 'shell': False}
+[12.657594] (cam_pub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.658137] (cam_pub) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/cam_pub/lib/cam_pub/z_talk\n'}
+[12.661352] (cam_pub) StdoutLine: {'line': b'-- Set runtime path of "/home/zk/ros2_ws/install/cam_pub/lib/cam_pub/z_talk" to ""\n'}
+[12.661692] (cam_pub) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/cam_pub/lib/cam_pub/webcam_pub\n'}
+[12.662451] (cam_pub) StdoutLine: {'line': b'-- Set runtime path of "/home/zk/ros2_ws/install/cam_pub/lib/cam_pub/webcam_pub" to ""\n'}
+[12.662671] (cam_pub) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/cam_pub/share/ament_index/resource_index/package_run_dependencies/cam_pub\n'}
+[12.662950] (cam_pub) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/cam_pub/share/ament_index/resource_index/parent_prefix_path/cam_pub\n'}
+[12.663275] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/ament_prefix_path.sh\n'}
+[12.663483] (cam_pub) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/ament_prefix_path.dsv\n'}
+[12.663691] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/path.sh\n'}
+[12.663894] (cam_pub) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/path.dsv\n'}
+[12.664342] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.bash\n'}
+[12.664595] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.sh\n'}
+[12.664744] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.zsh\n'}
+[12.664881] (cam_pub) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.dsv\n'}
+[12.666564] (cam_pub) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/package.dsv\n'}
+[12.666829] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/ament_index/resource_index/packages/cam_pub\n'}
+[12.666977] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/cmake/cam_pubConfig.cmake\n'}
+[12.667139] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/cmake/cam_pubConfig-version.cmake\n'}
+[12.667272] (cam_pub) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/package.xml\n'}
+[12.669818] (cam_pub) CommandEnded: {'returncode': 0}
+[12.680314] (-) TimerEvent: {}
+[12.727468] (cam_pub) JobEnded: {'identifier': 'cam_pub', 'rc': 0}
+[12.729814] (-) EventReactorShutdown: {}

@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<robot name="hb_robot">
+    <virtual_joint name="fixed_base" type="fixed" parent_frame="world" child_link="HB_carriage"/>
+
+  <!-- Example group (replace with your actual kinematic chain) -->
+    <group name="manipulator">
+    <chain base_link="HB_carriage" tip_link="ur10e_tool0"/>
+  </group>
+</robot>

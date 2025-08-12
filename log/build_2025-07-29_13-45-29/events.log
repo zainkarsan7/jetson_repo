@@ -1,0 +1,346 @@
+[0.000000] (-) TimerEvent: {}
+[0.000689] (-) JobUnselected: {'identifier': 'cam_pub'}
+[0.001191] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001470] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.001767] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.001890] (unitree_lidar_ros2) JobQueued: {'identifier': 'unitree_lidar_ros2', 'dependencies': OrderedDict()}
+[0.002094] (unitree_lidar_ros2) JobStarted: {'identifier': 'unitree_lidar_ros2'}
+[0.015074] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'cmake'}
+[0.016862] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'build'}
+[0.018433] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zk/ros2_ws/build/unitree_lidar_ros2', '--', '-j6', '-l6'], 'cwd': '/home/zk/ros2_ws/build/unitree_lidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zk'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zk'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zk'), ('TERM_PROGRAM_VERSION', '1.102.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2562'), ('BUNDLED_DEBUGPY_PATH', '/home/zk/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zk/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/zk-desktop:@/tmp/.ICE-unix/2538,unix/zk-desktop:/tmp/.ICE-unix/2538'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2949d30d_06f6_49ed_af03_e1faa590ff68'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zk/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-d8b2a98ecbe95254.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-325933e576.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zk/ros2_ws/build/unitree_lidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099371] (-) TimerEvent: {}
+[0.139879] (unitree_lidar_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/unitree_lidar_ros2_node.dir/src/unitree_lidar_ros2_node.cpp.o\x1b[0m\n'}
+[0.199547] (-) TimerEvent: {}
+[0.300291] (-) TimerEvent: {}
+[0.400941] (-) TimerEvent: {}
+[0.501595] (-) TimerEvent: {}
+[0.602270] (-) TimerEvent: {}
+[0.702930] (-) TimerEvent: {}
+[0.803647] (-) TimerEvent: {}
+[0.904298] (-) TimerEvent: {}
+[1.004952] (-) TimerEvent: {}
+[1.105609] (-) TimerEvent: {}
+[1.206289] (-) TimerEvent: {}
+[1.306968] (-) TimerEvent: {}
+[1.407662] (-) TimerEvent: {}
+[1.508337] (-) TimerEvent: {}
+[1.609011] (-) TimerEvent: {}
+[1.709684] (-) TimerEvent: {}
+[1.810378] (-) TimerEvent: {}
+[1.911054] (-) TimerEvent: {}
+[2.011730] (-) TimerEvent: {}
+[2.112387] (-) TimerEvent: {}
+[2.213074] (-) TimerEvent: {}
+[2.313747] (-) TimerEvent: {}
+[2.414425] (-) TimerEvent: {}
+[2.515094] (-) TimerEvent: {}
+[2.615746] (-) TimerEvent: {}
+[2.716400] (-) TimerEvent: {}
+[2.817062] (-) TimerEvent: {}
+[2.917718] (-) TimerEvent: {}
+[3.018371] (-) TimerEvent: {}
+[3.119005] (-) TimerEvent: {}
+[3.219678] (-) TimerEvent: {}
+[3.320332] (-) TimerEvent: {}
+[3.420986] (-) TimerEvent: {}
+[3.521641] (-) TimerEvent: {}
+[3.622442] (-) TimerEvent: {}
+[3.723196] (-) TimerEvent: {}
+[3.824105] (-) TimerEvent: {}
+[3.924927] (-) TimerEvent: {}
+[4.025740] (-) TimerEvent: {}
+[4.126586] (-) TimerEvent: {}
+[4.227417] (-) TimerEvent: {}
+[4.328241] (-) TimerEvent: {}
+[4.429072] (-) TimerEvent: {}
+[4.529891] (-) TimerEvent: {}
+[4.630741] (-) TimerEvent: {}
+[4.731578] (-) TimerEvent: {}
+[4.832409] (-) TimerEvent: {}
+[4.933246] (-) TimerEvent: {}
+[5.034119] (-) TimerEvent: {}
+[5.134961] (-) TimerEvent: {}
+[5.235765] (-) TimerEvent: {}
+[5.336493] (-) TimerEvent: {}
+[5.437319] (-) TimerEvent: {}
+[5.538162] (-) TimerEvent: {}
+[5.639004] (-) TimerEvent: {}
+[5.739814] (-) TimerEvent: {}
+[5.840650] (-) TimerEvent: {}
+[5.941455] (-) TimerEvent: {}
+[6.042259] (-) TimerEvent: {}
+[6.143075] (-) TimerEvent: {}
+[6.243874] (-) TimerEvent: {}
+[6.344632] (-) TimerEvent: {}
+[6.445464] (-) TimerEvent: {}
+[6.546307] (-) TimerEvent: {}
+[6.647115] (-) TimerEvent: {}
+[6.747922] (-) TimerEvent: {}
+[6.848733] (-) TimerEvent: {}
+[6.949535] (-) TimerEvent: {}
+[7.050430] (-) TimerEvent: {}
+[7.151270] (-) TimerEvent: {}
+[7.252120] (-) TimerEvent: {}
+[7.352965] (-) TimerEvent: {}
+[7.453814] (-) TimerEvent: {}
+[7.554695] (-) TimerEvent: {}
+[7.655561] (-) TimerEvent: {}
+[7.756384] (-) TimerEvent: {}
+[7.857197] (-) TimerEvent: {}
+[7.958034] (-) TimerEvent: {}
+[8.058841] (-) TimerEvent: {}
+[8.159677] (-) TimerEvent: {}
+[8.260498] (-) TimerEvent: {}
+[8.361328] (-) TimerEvent: {}
+[8.462118] (-) TimerEvent: {}
+[8.562952] (-) TimerEvent: {}
+[8.663761] (-) TimerEvent: {}
+[8.764586] (-) TimerEvent: {}
+[8.865405] (-) TimerEvent: {}
+[8.966257] (-) TimerEvent: {}
+[9.067078] (-) TimerEvent: {}
+[9.167901] (-) TimerEvent: {}
+[9.268738] (-) TimerEvent: {}
+[9.369543] (-) TimerEvent: {}
+[9.470402] (-) TimerEvent: {}
+[9.571222] (-) TimerEvent: {}
+[9.672041] (-) TimerEvent: {}
+[9.772845] (-) TimerEvent: {}
+[9.873651] (-) TimerEvent: {}
+[9.974485] (-) TimerEvent: {}
+[10.076720] (-) TimerEvent: {}
+[10.177424] (-) TimerEvent: {}
+[10.278097] (-) TimerEvent: {}
+[10.378769] (-) TimerEvent: {}
+[10.479445] (-) TimerEvent: {}
+[10.580101] (-) TimerEvent: {}
+[10.680773] (-) TimerEvent: {}
+[10.781445] (-) TimerEvent: {}
+[10.882114] (-) TimerEvent: {}
+[10.982801] (-) TimerEvent: {}
+[11.083481] (-) TimerEvent: {}
+[11.184183] (-) TimerEvent: {}
+[11.284877] (-) TimerEvent: {}
+[11.385550] (-) TimerEvent: {}
+[11.486230] (-) TimerEvent: {}
+[11.586897] (-) TimerEvent: {}
+[11.687559] (-) TimerEvent: {}
+[11.788239] (-) TimerEvent: {}
+[11.888904] (-) TimerEvent: {}
+[11.989578] (-) TimerEvent: {}
+[12.090356] (-) TimerEvent: {}
+[12.191021] (-) TimerEvent: {}
+[12.291694] (-) TimerEvent: {}
+[12.392359] (-) TimerEvent: {}
+[12.493079] (-) TimerEvent: {}
+[12.593750] (-) TimerEvent: {}
+[12.694433] (-) TimerEvent: {}
+[12.795112] (-) TimerEvent: {}
+[12.895780] (-) TimerEvent: {}
+[12.996482] (-) TimerEvent: {}
+[13.097160] (-) TimerEvent: {}
+[13.197834] (-) TimerEvent: {}
+[13.298521] (-) TimerEvent: {}
+[13.399196] (-) TimerEvent: {}
+[13.499876] (-) TimerEvent: {}
+[13.600564] (-) TimerEvent: {}
+[13.701238] (-) TimerEvent: {}
+[13.801921] (-) TimerEvent: {}
+[13.902617] (-) TimerEvent: {}
+[14.003288] (-) TimerEvent: {}
+[14.103958] (-) TimerEvent: {}
+[14.204648] (-) TimerEvent: {}
+[14.305328] (-) TimerEvent: {}
+[14.406008] (-) TimerEvent: {}
+[14.506703] (-) TimerEvent: {}
+[14.607372] (-) TimerEvent: {}
+[14.708052] (-) TimerEvent: {}
+[14.808746] (-) TimerEvent: {}
+[14.909417] (-) TimerEvent: {}
+[15.010093] (-) TimerEvent: {}
+[15.110778] (-) TimerEvent: {}
+[15.211461] (-) TimerEvent: {}
+[15.312115] (-) TimerEvent: {}
+[15.412786] (-) TimerEvent: {}
+[15.513469] (-) TimerEvent: {}
+[15.614154] (-) TimerEvent: {}
+[15.714838] (-) TimerEvent: {}
+[15.815505] (-) TimerEvent: {}
+[15.916180] (-) TimerEvent: {}
+[16.016844] (-) TimerEvent: {}
+[16.117558] (-) TimerEvent: {}
+[16.218287] (-) TimerEvent: {}
+[16.318972] (-) TimerEvent: {}
+[16.419638] (-) TimerEvent: {}
+[16.520314] (-) TimerEvent: {}
+[16.620993] (-) TimerEvent: {}
+[16.721668] (-) TimerEvent: {}
+[16.822370] (-) TimerEvent: {}
+[16.923052] (-) TimerEvent: {}
+[17.023719] (-) TimerEvent: {}
+[17.124394] (-) TimerEvent: {}
+[17.225061] (-) TimerEvent: {}
+[17.325727] (-) TimerEvent: {}
+[17.426448] (-) TimerEvent: {}
+[17.527283] (-) TimerEvent: {}
+[17.627955] (-) TimerEvent: {}
+[17.728646] (-) TimerEvent: {}
+[17.829330] (-) TimerEvent: {}
+[17.930030] (-) TimerEvent: {}
+[18.030692] (-) TimerEvent: {}
+[18.131403] (-) TimerEvent: {}
+[18.232248] (-) TimerEvent: {}
+[18.333084] (-) TimerEvent: {}
+[18.433911] (-) TimerEvent: {}
+[18.534758] (-) TimerEvent: {}
+[18.635598] (-) TimerEvent: {}
+[18.736435] (-) TimerEvent: {}
+[18.837251] (-) TimerEvent: {}
+[18.938119] (-) TimerEvent: {}
+[19.038945] (-) TimerEvent: {}
+[19.139782] (-) TimerEvent: {}
+[19.240625] (-) TimerEvent: {}
+[19.341474] (-) TimerEvent: {}
+[19.442326] (-) TimerEvent: {}
+[19.543145] (-) TimerEvent: {}
+[19.643972] (-) TimerEvent: {}
+[19.744805] (-) TimerEvent: {}
+[19.845618] (-) TimerEvent: {}
+[19.946477] (-) TimerEvent: {}
+[20.047290] (-) TimerEvent: {}
+[20.148121] (-) TimerEvent: {}
+[20.248912] (-) TimerEvent: {}
+[20.349633] (-) TimerEvent: {}
+[20.450551] (-) TimerEvent: {}
+[20.551383] (-) TimerEvent: {}
+[20.652210] (-) TimerEvent: {}
+[20.753030] (-) TimerEvent: {}
+[20.853863] (-) TimerEvent: {}
+[20.954720] (-) TimerEvent: {}
+[21.055551] (-) TimerEvent: {}
+[21.156377] (-) TimerEvent: {}
+[21.257213] (-) TimerEvent: {}
+[21.358071] (-) TimerEvent: {}
+[21.458893] (-) TimerEvent: {}
+[21.559724] (-) TimerEvent: {}
+[21.660568] (-) TimerEvent: {}
+[21.761390] (-) TimerEvent: {}
+[21.862307] (-) TimerEvent: {}
+[21.963109] (-) TimerEvent: {}
+[22.063908] (-) TimerEvent: {}
+[22.164750] (-) TimerEvent: {}
+[22.265589] (-) TimerEvent: {}
+[22.366433] (-) TimerEvent: {}
+[22.467251] (-) TimerEvent: {}
+[22.568085] (-) TimerEvent: {}
+[22.668933] (-) TimerEvent: {}
+[22.769784] (-) TimerEvent: {}
+[22.870577] (-) TimerEvent: {}
+[22.971360] (-) TimerEvent: {}
+[23.072182] (-) TimerEvent: {}
+[23.173017] (-) TimerEvent: {}
+[23.273859] (-) TimerEvent: {}
+[23.374734] (-) TimerEvent: {}
+[23.475588] (-) TimerEvent: {}
+[23.576439] (-) TimerEvent: {}
+[23.677258] (-) TimerEvent: {}
+[23.778082] (-) TimerEvent: {}
+[23.878880] (-) TimerEvent: {}
+[23.979689] (-) TimerEvent: {}
+[24.080467] (-) TimerEvent: {}
+[24.181307] (-) TimerEvent: {}
+[24.282126] (-) TimerEvent: {}
+[24.382934] (-) TimerEvent: {}
+[24.483741] (-) TimerEvent: {}
+[24.584555] (-) TimerEvent: {}
+[24.685506] (-) TimerEvent: {}
+[24.786314] (-) TimerEvent: {}
+[24.887096] (-) TimerEvent: {}
+[24.987899] (-) TimerEvent: {}
+[25.088684] (-) TimerEvent: {}
+[25.189475] (-) TimerEvent: {}
+[25.290270] (-) TimerEvent: {}
+[25.391083] (-) TimerEvent: {}
+[25.491906] (-) TimerEvent: {}
+[25.592710] (-) TimerEvent: {}
+[25.693509] (-) TimerEvent: {}
+[25.794315] (-) TimerEvent: {}
+[25.895091] (-) TimerEvent: {}
+[25.995874] (-) TimerEvent: {}
+[26.096675] (-) TimerEvent: {}
+[26.197498] (-) TimerEvent: {}
+[26.298337] (-) TimerEvent: {}
+[26.399131] (-) TimerEvent: {}
+[26.499948] (-) TimerEvent: {}
+[26.600754] (-) TimerEvent: {}
+[26.701559] (-) TimerEvent: {}
+[26.802357] (-) TimerEvent: {}
+[26.903133] (-) TimerEvent: {}
+[27.003930] (-) TimerEvent: {}
+[27.104639] (-) TimerEvent: {}
+[27.205472] (-) TimerEvent: {}
+[27.306328] (-) TimerEvent: {}
+[27.407150] (-) TimerEvent: {}
+[27.507974] (-) TimerEvent: {}
+[27.608793] (-) TimerEvent: {}
+[27.709620] (-) TimerEvent: {}
+[27.763424] (unitree_lidar_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable unitree_lidar_ros2_node\x1b[0m\n'}
+[27.809797] (-) TimerEvent: {}
+[27.910514] (-) TimerEvent: {}
+[28.011321] (-) TimerEvent: {}
+[28.112118] (-) TimerEvent: {}
+[28.212945] (-) TimerEvent: {}
+[28.313809] (-) TimerEvent: {}
+[28.414660] (-) TimerEvent: {}
+[28.515485] (-) TimerEvent: {}
+[28.616225] (-) TimerEvent: {}
+[28.717066] (-) TimerEvent: {}
+[28.817893] (-) TimerEvent: {}
+[28.918730] (-) TimerEvent: {}
+[29.019544] (-) TimerEvent: {}
+[29.120355] (-) TimerEvent: {}
+[29.221201] (-) TimerEvent: {}
+[29.322109] (-) TimerEvent: {}
+[29.422880] (-) TimerEvent: {}
+[29.523720] (-) TimerEvent: {}
+[29.624547] (-) TimerEvent: {}
+[29.725373] (-) TimerEvent: {}
+[29.826267] (-) TimerEvent: {}
+[29.927078] (-) TimerEvent: {}
+[30.027957] (-) TimerEvent: {}
+[30.128836] (-) TimerEvent: {}
+[30.229628] (-) TimerEvent: {}
+[30.330329] (-) TimerEvent: {}
+[30.431136] (-) TimerEvent: {}
+[30.531972] (-) TimerEvent: {}
+[30.632811] (-) TimerEvent: {}
+[30.733637] (-) TimerEvent: {}
+[30.834463] (-) TimerEvent: {}
+[30.856948] (unitree_lidar_ros2) StdoutLine: {'line': b'[100%] Built target unitree_lidar_ros2_node\n'}
+[30.882685] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[30.884370] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'install'}
+[30.905992] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zk/ros2_ws/build/unitree_lidar_ros2'], 'cwd': '/home/zk/ros2_ws/build/unitree_lidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zk'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zk'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zk'), ('TERM_PROGRAM_VERSION', '1.102.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2562'), ('BUNDLED_DEBUGPY_PATH', '/home/zk/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zk'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zk/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/zk-desktop:@/tmp/.ICE-unix/2538,unix/zk-desktop:/tmp/.ICE-unix/2538'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2949d30d_06f6_49ed_af03_e1faa590ff68'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zk/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-d8b2a98ecbe95254.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-325933e576.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zk/ros2_ws/build/unitree_lidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.923953] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.933230] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node\n'}
+[30.934522] (-) TimerEvent: {}
+[30.938737] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/zk/ros2_ws/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node" to ""\n'}
+[30.939096] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/view.rviz\n'}
+[30.939354] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/launch.py\n'}
+[30.939698] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2\n'}
+[30.940115] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2\n'}
+[30.940599] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.sh\n'}
+[30.940849] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.dsv\n'}
+[30.941466] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.sh\n'}
+[30.941739] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.dsv\n'}
+[30.941913] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.bash\n'}
+[30.942164] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.sh\n'}
+[30.942537] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.zsh\n'}
+[30.943158] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.dsv\n'}
+[30.943341] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.dsv\n'}
+[30.943752] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/packages/unitree_lidar_ros2\n'}
+[30.944007] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config.cmake\n'}
+[30.944233] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config-version.cmake\n'}
+[30.945179] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.xml\n'}
+[30.950271] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[31.001300] (unitree_lidar_ros2) JobEnded: {'identifier': 'unitree_lidar_ros2', 'rc': 0}
+[31.003385] (-) EventReactorShutdown: {}

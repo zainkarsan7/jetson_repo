@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000918] (cam_pub) JobQueued: {'identifier': 'cam_pub', 'dependencies': OrderedDict()}
+[0.001559] (cam_pub) JobStarted: {'identifier': 'cam_pub'}
+[0.015472] (cam_pub) JobProgress: {'identifier': 'cam_pub', 'progress': 'cmake'}
+[0.016806] (cam_pub) JobProgress: {'identifier': 'cam_pub', 'progress': 'build'}
+[0.018037] (cam_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zk/ros2_ws/build/cam_pub', '--', '-j6', '-l6'], 'cwd': '/home/zk/ros2_ws/build/cam_pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zk'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zk'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '3845'), ('SYSTEMD_EXEC_PID', '4013'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7725'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zk/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zk'), ('JOURNAL_STREAM', '8:45888'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/zk/.local/bin:/opt/ros/humble/bin:/home/zk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zk-desktop:@/tmp/.ICE-unix/3989,unix/zk-desktop:/tmp/.ICE-unix/3989'), ('INVOCATION_ID', 'a8395a1e29f844cfb8e150202ed55886'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-325933e576.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zk/ros2_ws/install/cam_pub:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zk/ros2_ws/build/cam_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zk/ros2_ws/install/cam_pub:/opt/ros/humble')]), 'shell': False}
+[0.099412] (-) TimerEvent: {}
+[0.102725] (cam_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hough_node\x1b[0m\n'}
+[0.110677] (cam_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target webcam_pub\x1b[0m\n'}
+[0.130906] (cam_pub) StdoutLine: {'line': b'[ 33%] Built target z_talk\n'}
+[0.140129] (cam_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hough_node.dir/src/hough_node.cpp.o\x1b[0m\n'}
+[0.152698] (cam_pub) StdoutLine: {'line': b'[ 83%] Built target webcam_pub\n'}
+[0.199865] (-) TimerEvent: {}
+[0.300801] (-) TimerEvent: {}
+[0.402182] (-) TimerEvent: {}
+[0.503112] (-) TimerEvent: {}
+[0.603802] (-) TimerEvent: {}
+[0.704600] (-) TimerEvent: {}
+[0.805446] (-) TimerEvent: {}
+[0.906300] (-) TimerEvent: {}
+[1.007262] (-) TimerEvent: {}
+[1.108082] (-) TimerEvent: {}
+[1.208768] (-) TimerEvent: {}
+[1.309688] (-) TimerEvent: {}
+[1.411346] (-) TimerEvent: {}
+[1.512112] (-) TimerEvent: {}
+[1.612809] (-) TimerEvent: {}
+[1.713587] (-) TimerEvent: {}
+[1.814269] (-) TimerEvent: {}
+[1.914984] (-) TimerEvent: {}
+[2.015664] (-) TimerEvent: {}
+[2.116350] (-) TimerEvent: {}
+[2.217068] (-) TimerEvent: {}
+[2.317749] (-) TimerEvent: {}
+[2.418428] (-) TimerEvent: {}
+[2.519111] (-) TimerEvent: {}
+[2.619828] (-) TimerEvent: {}
+[2.720511] (-) TimerEvent: {}
+[2.821175] (-) TimerEvent: {}
+[2.921854] (-) TimerEvent: {}
+[3.022516] (-) TimerEvent: {}
+[3.123206] (-) TimerEvent: {}
+[3.223871] (-) TimerEvent: {}
+[3.324546] (-) TimerEvent: {}
+[3.425262] (-) TimerEvent: {}
+[3.525957] (-) TimerEvent: {}
+[3.626647] (-) TimerEvent: {}
+[3.727343] (-) TimerEvent: {}
+[3.828195] (-) TimerEvent: {}
+[3.928878] (-) TimerEvent: {}
+[4.029591] (-) TimerEvent: {}
+[4.130272] (-) TimerEvent: {}
+[4.230979] (-) TimerEvent: {}
+[4.331669] (-) TimerEvent: {}
+[4.432368] (-) TimerEvent: {}
+[4.533031] (-) TimerEvent: {}
+[4.633761] (-) TimerEvent: {}
+[4.734437] (-) TimerEvent: {}
+[4.835159] (-) TimerEvent: {}
+[4.936025] (-) TimerEvent: {}
+[5.036874] (-) TimerEvent: {}
+[5.137704] (-) TimerEvent: {}
+[5.238520] (-) TimerEvent: {}
+[5.339425] (-) TimerEvent: {}
+[5.440253] (-) TimerEvent: {}
+[5.541067] (-) TimerEvent: {}
+[5.641907] (-) TimerEvent: {}
+[5.742759] (-) TimerEvent: {}
+[5.843633] (-) TimerEvent: {}
+[5.944478] (-) TimerEvent: {}
+[6.046553] (-) TimerEvent: {}
+[6.147439] (-) TimerEvent: {}
+[6.248284] (-) TimerEvent: {}
+[6.349131] (-) TimerEvent: {}
+[6.449965] (-) TimerEvent: {}
+[6.550817] (-) TimerEvent: {}
+[6.651675] (-) TimerEvent: {}
+[6.752526] (-) TimerEvent: {}
+[6.853373] (-) TimerEvent: {}
+[6.954317] (-) TimerEvent: {}
+[7.055217] (-) TimerEvent: {}
+[7.156028] (-) TimerEvent: {}
+[7.256851] (-) TimerEvent: {}
+[7.357695] (-) TimerEvent: {}
+[7.458549] (-) TimerEvent: {}
+[7.559461] (-) TimerEvent: {}
+[7.660308] (-) TimerEvent: {}
+[7.760989] (-) TimerEvent: {}
+[7.861666] (-) TimerEvent: {}
+[7.962382] (-) TimerEvent: {}
+[8.063081] (-) TimerEvent: {}
+[8.163768] (-) TimerEvent: {}
+[8.264467] (-) TimerEvent: {}
+[8.365131] (-) TimerEvent: {}
+[8.465806] (-) TimerEvent: {}
+[8.566487] (-) TimerEvent: {}
+[8.667203] (-) TimerEvent: {}
+[8.767895] (-) TimerEvent: {}
+[8.868577] (-) TimerEvent: {}
+[8.969257] (-) TimerEvent: {}
+[9.069938] (-) TimerEvent: {}
+[9.170624] (-) TimerEvent: {}
+[9.271340] (-) TimerEvent: {}
+[9.372067] (-) TimerEvent: {}
+[9.472754] (-) TimerEvent: {}
+[9.573439] (-) TimerEvent: {}
+[9.674135] (-) TimerEvent: {}
+[9.774807] (-) TimerEvent: {}
+[9.875490] (-) TimerEvent: {}
+[9.976225] (-) TimerEvent: {}
+[9.978779] (cam_pub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hough_node\x1b[0m\n'}
+[10.076353] (-) TimerEvent: {}
+[10.144474] (cam_pub) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408\n'}
+[10.145572] (cam_pub) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408\n'}
+[10.146704] (cam_pub) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408\n'}
+[10.176533] (-) TimerEvent: {}
+[10.277194] (-) TimerEvent: {}
+[10.377864] (-) TimerEvent: {}
+[10.478569] (-) TimerEvent: {}
+[10.579314] (-) TimerEvent: {}
+[10.680014] (-) TimerEvent: {}
+[10.780718] (-) TimerEvent: {}
+[10.838452] (cam_pub) StdoutLine: {'line': b'[100%] Built target hough_node\n'}
+[10.868041] (cam_pub) CommandEnded: {'returncode': 0}
+[10.870406] (cam_pub) JobProgress: {'identifier': 'cam_pub', 'progress': 'install'}
+[10.880822] (-) TimerEvent: {}
+[10.892326] (cam_pub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zk/ros2_ws/build/cam_pub'], 'cwd': '/home/zk/ros2_ws/build/cam_pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zk'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zk'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '3845'), ('SYSTEMD_EXEC_PID', '4013'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7725'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zk/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zk'), ('JOURNAL_STREAM', '8:45888'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/zk/.local/bin:/opt/ros/humble/bin:/home/zk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zk-desktop:@/tmp/.ICE-unix/3989,unix/zk-desktop:/tmp/.ICE-unix/3989'), ('INVOCATION_ID', 'a8395a1e29f844cfb8e150202ed55886'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-325933e576.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zk/ros2_ws/install/cam_pub:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zk/ros2_ws/build/cam_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zk/ros2_ws/install/cam_pub:/opt/ros/humble')]), 'shell': False}
+[10.910120] (cam_pub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.911097] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/lib/cam_pub/z_talk\n'}
+[10.912687] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/lib/cam_pub/webcam_pub\n'}
+[10.913006] (cam_pub) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/cam_pub/lib/cam_pub/hough_node\n'}
+[10.915025] (cam_pub) StdoutLine: {'line': b'-- Set runtime path of "/home/zk/ros2_ws/install/cam_pub/lib/cam_pub/hough_node" to ""\n'}
+[10.915526] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/ament_index/resource_index/package_run_dependencies/cam_pub\n'}
+[10.915782] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/ament_index/resource_index/parent_prefix_path/cam_pub\n'}
+[10.915983] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/ament_prefix_path.sh\n'}
+[10.916191] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/ament_prefix_path.dsv\n'}
+[10.916356] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/path.sh\n'}
+[10.916548] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/path.dsv\n'}
+[10.916707] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.bash\n'}
+[10.917021] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.sh\n'}
+[10.917182] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.zsh\n'}
+[10.917391] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.dsv\n'}
+[10.917545] (cam_pub) StdoutLine: {'line': b'-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/package.dsv\n'}
+[10.917701] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/ament_index/resource_index/packages/cam_pub\n'}
+[10.917851] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/cmake/cam_pubConfig.cmake\n'}
+[10.918000] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/cmake/cam_pubConfig-version.cmake\n'}
+[10.918147] (cam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/package.xml\n'}
+[10.920080] (cam_pub) CommandEnded: {'returncode': 0}
+[10.981207] (-) TimerEvent: {}
+[10.986018] (cam_pub) JobEnded: {'identifier': 'cam_pub', 'rc': 0}
+[10.988887] (-) EventReactorShutdown: {}

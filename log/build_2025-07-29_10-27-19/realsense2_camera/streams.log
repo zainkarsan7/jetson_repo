@@ -1,0 +1,109 @@
+[0.027s] Invoking command in '/home/zk/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/zk/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zk/ros2_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zk/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zk/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zk/ros2_ws/build/realsense2_camera -- -j6 -l6
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_node[0m
+[0.145s] [  8%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[0.145s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.147s] [ 12%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[0.150s] [ 16%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o[0m
+[0.157s] [ 24%] Built target gtest_main
+[0.174s] [ 28%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o[0m
+[0.178s] [ 36%] Built target realsense2_camera_node
+[0.192s] [ 40%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o[0m
+[17.554s] [ 44%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o[0m
+[18.760s] [ 48%] [32m[1mLinking CXX static library libgtest.a[0m
+[18.989s] [ 52%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o[0m
+[19.992s] [ 52%] Built target gtest
+[20.015s] [ 56%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o[0m
+[26.626s] [ 60%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+[28.751s] [ 64%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/pointcloud_filter.cpp.o[0m
+[31.653s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/align_depth_filter.cpp.o[0m
+[33.186s] [ 72%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o[0m
+[34.568s] [ 76%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o[0m
+[39.724s] [ 80%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/tfs.cpp.o[0m
+[41.829s] [ 84%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/actions.cpp.o[0m
+[43.733s] [ 88%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend.cpp.o[0m
+[46.828s] [ 92%] [32mBuilding CXX object CMakeFiles/gtest_template.dir/test/gtest_template.cpp.o[0m
+[48.620s] [ 96%] [32m[1mLinking CXX executable gtest_template[0m
+[48.864s] [ 96%] Built target gtest_template
+[61.760s] [100%] [32m[1mLinking CXX shared library librealsense2_camera.so[0m
+[63.493s] [100%] Built target realsense2_camera
+[63.519s] Invoked command in '/home/zk/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/zk/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zk/ros2_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zk/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zk/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zk/ros2_ws/build/realsense2_camera -- -j6 -l6
+[63.526s] Invoking command in '/home/zk/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/zk/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zk/ros2_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zk/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zk/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zk/ros2_ws/build/realsense2_camera
+[63.542s] -- Install configuration: "Release"
+[63.543s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/config/global_settings.yaml
+[63.544s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[63.547s] -- Set runtime path of "/home/zk/ros2_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node" to ""
+[63.547s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/lib/librealsense2_camera.so
+[63.554s] -- Set runtime path of "/home/zk/ros2_ws/install/realsense2_camera/lib/librealsense2_camera.so" to ""
+[63.554s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include
+[63.554s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include/pointcloud_filter.h
+[63.555s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include/ros_utils.h
+[63.555s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include/ros_param_backend.h
+[63.556s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include/realsense_node_factory.h
+[63.556s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include/dynamic_params.h
+[63.557s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include/ros_node_base.h
+[63.557s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include/sensor_params.h
+[63.558s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include/named_filter.h
+[63.558s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include/image_publisher.h
+[63.558s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include/align_depth_filter.h
+[63.558s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include/base_realsense_node.h
+[63.559s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include/ros_sensor.h
+[63.559s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include/gl_window.h
+[63.559s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include/constants.h
+[63.559s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/include/profile_manager.h
+[63.560s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch
+[63.560s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[63.560s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[63.561s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+[63.561s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch_sync.py
+[63.561s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[63.562s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples
+[63.563s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/d500_tables
+[63.564s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/d500_tables/calib_config_example.json
+[63.565s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/align_depth
+[63.565s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/align_depth/rs_align_depth_launch.py
+[63.566s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/align_depth/README.md
+[63.566s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file
+[63.567s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/config
+[63.568s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/config/config.yaml
+[63.569s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/rs_launch_get_params_from_yaml.py
+[63.569s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/README.md
+[63.569s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud
+[63.570s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_pointcloud_launch.py
+[63.571s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d455_pointcloud_launch.py
+[63.571s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d405_pointcloud_launch.py
+[63.572s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/README.md
+[63.572s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz
+[63.573s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/urdf_pointcloud.rviz
+[63.574s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/pointcloud.rviz
+[63.575s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_pointcloud_infra_launch.py
+[63.575s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag
+[63.576s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/rs_launch_from_rosbag.py
+[63.576s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/README.md
+[63.577s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera
+[63.578s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rs_dual_camera_launch.py
+[63.578s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/README.md
+[63.579s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rviz
+[63.580s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rviz/dual_camera_pointcloud.rviz
+[63.581s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[63.582s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[63.583s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[63.584s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[63.584s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[63.585s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[63.586s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[63.586s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[63.587s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[63.588s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[63.588s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[63.589s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[63.590s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.dsv
+[63.590s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[63.591s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[63.592s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[63.592s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[63.593s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[63.594s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[63.595s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[63.596s] -- Installing: /home/zk/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.xml
+[63.603s] Invoked command in '/home/zk/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/zk/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zk/ros2_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zk/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zk/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zk/ros2_ws/build/realsense2_camera

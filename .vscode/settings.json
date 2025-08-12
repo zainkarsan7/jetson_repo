@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/home/zk/ros2_ws/src/cam_pub",
+    "C_Cpp.default.compilerPath": "/usr/bin/clang-14"
+}

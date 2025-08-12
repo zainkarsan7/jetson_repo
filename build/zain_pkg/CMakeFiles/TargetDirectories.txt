@@ -1,0 +1,10 @@
+/home/zk/ros2_ws/build/zain_pkg/CMakeFiles/uninstall.dir
+/home/zk/ros2_ws/build/zain_pkg/CMakeFiles/zain_pkg_uninstall.dir
+/home/zk/ros2_ws/build/zain_pkg/CMakeFiles/hello_moveit.dir
+/home/zk/ros2_ws/build/zain_pkg/CMakeFiles/test.dir
+/home/zk/ros2_ws/build/zain_pkg/CMakeFiles/edit_cache.dir
+/home/zk/ros2_ws/build/zain_pkg/CMakeFiles/rebuild_cache.dir
+/home/zk/ros2_ws/build/zain_pkg/CMakeFiles/list_install_components.dir
+/home/zk/ros2_ws/build/zain_pkg/CMakeFiles/install.dir
+/home/zk/ros2_ws/build/zain_pkg/CMakeFiles/install/local.dir
+/home/zk/ros2_ws/build/zain_pkg/CMakeFiles/install/strip.dir
