@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zk/ros2_ws/src/hb_robot_moveit_config
+CMAKE_SOURCE_DIR = /root/jetson_repo/src/hb_robot_moveit_config
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zk/ros2_ws/build/hb_robot_moveit_config
+CMAKE_BINARY_DIR = /root/jetson_repo/build/hb_robot_moveit_config
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/zk/ros2_ws/build/hb_robot_moveit_config && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zk/ros2_ws/src/hb_robot_moveit_config /home/zk/ros2_ws/src/hb_robot_moveit_config /home/zk/ros2_ws/build/hb_robot_moveit_config /home/zk/ros2_ws/build/hb_robot_moveit_config /home/zk/ros2_ws/build/hb_robot_moveit_config/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/jetson_repo/build/hb_robot_moveit_config && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/jetson_repo/src/hb_robot_moveit_config /root/jetson_repo/src/hb_robot_moveit_config /root/jetson_repo/build/hb_robot_moveit_config /root/jetson_repo/build/hb_robot_moveit_config /root/jetson_repo/build/hb_robot_moveit_config/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

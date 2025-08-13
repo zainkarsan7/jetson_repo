@@ -1,8 +1,12 @@
-controller_manager_name: ros2_control_controller_manager
+# MoveIt uses this configuration for controller management
 
-controller_list:
-  - name: ur10e_arm_controller
-    action_ns: follow_joint_trajectory
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - manipulator_controller
+
+  manipulator_controller:
     type: FollowJointTrajectory
     joints:
       - ur10e_shoulder_pan_joint

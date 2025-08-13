@@ -73,13 +73,14 @@
   <link name="robot_mount">
     <visual>
       <geometry>
-        <mesh filename="package://hb_robot_description/meshes/board.stl"/>
+      
+        <mesh filename="file:///root/ros_ws/jetson_repo/src/hb_robot_description/meshes/board.stl"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 0" xyz="0 0 0"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://hb_robot_description/meshes/board.stl"/>
+        <mesh filename="file:///root/ros_ws/jetson_repo/src/hb_robot_description/meshes/board.stl"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 0" xyz="0 0 0"/>
     </collision>

@@ -1,4 +1,0 @@
-Invoking command in '/home/zk/ros2_ws/build/zain_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zk/ros2_ws/build/zain_pkg -- -j6 -l6
-Invoked command in '/home/zk/ros2_ws/build/zain_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zk/ros2_ws/build/zain_pkg -- -j6 -l6
-Invoking command in '/home/zk/ros2_ws/build/zain_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zk/ros2_ws/build/zain_pkg
-Invoked command in '/home/zk/ros2_ws/build/zain_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zk/ros2_ws/build/zain_pkg

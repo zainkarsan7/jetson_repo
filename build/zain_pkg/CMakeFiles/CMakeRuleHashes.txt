@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-b9d77b0eb4df897046f4cdc45997d6dd CMakeFiles/zain_pkg_uninstall

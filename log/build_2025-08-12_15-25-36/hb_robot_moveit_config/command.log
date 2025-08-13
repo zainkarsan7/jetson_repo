@@ -1,2 +1,0 @@
-Invoking command in '/home/zk/ros2_ws/build/hb_robot_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zk/ros2_ws/src/hb_robot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/zk/ros2_ws/install/hb_robot_moveit_config
-Invoked command in '/home/zk/ros2_ws/build/hb_robot_moveit_config' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zk/ros2_ws/src/hb_robot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/zk/ros2_ws/install/hb_robot_moveit_config

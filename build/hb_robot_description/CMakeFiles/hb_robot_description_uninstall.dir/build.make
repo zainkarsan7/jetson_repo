@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zk/ros2_ws/src/hb_robot_description
+CMAKE_SOURCE_DIR = /root/jetson_repo/src/hb_robot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zk/ros2_ws/build/hb_robot_description
+CMAKE_BINARY_DIR = /root/jetson_repo/build/hb_robot_description
 
 # Utility rule file for hb_robot_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/hb_robot_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/hb_robot_description_uninstall.dir/progress.make
 
 CMakeFiles/hb_robot_description_uninstall:
-	/usr/bin/cmake -P /home/zk/ros2_ws/build/hb_robot_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /root/jetson_repo/build/hb_robot_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 hb_robot_description_uninstall: CMakeFiles/hb_robot_description_uninstall
 hb_robot_description_uninstall: CMakeFiles/hb_robot_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/hb_robot_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/hb_robot_description_uninstall.dir/clean
 
 CMakeFiles/hb_robot_description_uninstall.dir/depend:
-	cd /home/zk/ros2_ws/build/hb_robot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zk/ros2_ws/src/hb_robot_description /home/zk/ros2_ws/src/hb_robot_description /home/zk/ros2_ws/build/hb_robot_description /home/zk/ros2_ws/build/hb_robot_description /home/zk/ros2_ws/build/hb_robot_description/CMakeFiles/hb_robot_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/jetson_repo/build/hb_robot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/jetson_repo/src/hb_robot_description /root/jetson_repo/src/hb_robot_description /root/jetson_repo/build/hb_robot_description /root/jetson_repo/build/hb_robot_description /root/jetson_repo/build/hb_robot_description/CMakeFiles/hb_robot_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hb_robot_description_uninstall.dir/depend
 

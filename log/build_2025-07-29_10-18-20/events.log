@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.001654] (-) JobUnselected: {'identifier': 'cam_pub'}
-[0.001987] (-) JobUnselected: {'identifier': 'realsense2_camera'}
-[0.002229] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
-[0.002450] (-) JobUnselected: {'identifier': 'realsense2_description'}
-[0.002675] (-) EventReactorShutdown: {}

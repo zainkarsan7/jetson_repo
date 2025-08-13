@@ -1,1 +1,1 @@
-/home/zk/ros2_ws/install/hb_robot_description:/home/zk/ros2_ws/install/zain_pkg:/home/zk/ros2_ws/install/unitree_lidar_ros2:/home/zk/ros2_ws/install/realsense2_description:/home/zk/ros2_ws/install/realsense2_camera:/home/zk/ros2_ws/install/realsense2_camera_msgs:/home/zk/ros2_ws/install/cam_pub:/home/zk/ros2_ws/install/azure_kinect_ros2_driver:/opt/ros/humble
+/root/jetson_repo/install/hb_robot_description:/opt/ros/humble
