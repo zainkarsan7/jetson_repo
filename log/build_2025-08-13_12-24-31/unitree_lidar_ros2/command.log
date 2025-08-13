@@ -1,0 +1,1 @@
+Invoking command in '/home/zk/ros2_ws/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zk/ros2_ws/src/unitree_lidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/zk/ros2_ws/install/unitree_lidar_ros2

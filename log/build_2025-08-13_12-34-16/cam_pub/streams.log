@@ -1,0 +1,39 @@
+[0.023s] Invoking command in '/home/zk/ros2_ws/build/cam_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zk/ros2_ws/build/cam_pub -- -j6 -l6
+[0.130s] [ 33%] [32mBuilding CXX object CMakeFiles/webcam_pub.dir/src/webcam_publisher.cpp.o[0m
+[0.130s] [ 33%] [32mBuilding CXX object CMakeFiles/z_talk.dir/src/zain_pub.cpp.o[0m
+[0.134s] [ 50%] [32mBuilding CXX object CMakeFiles/hough_node.dir/src/hough_node.cpp.o[0m
+[9.702s] [ 66%] [32m[1mLinking CXX executable z_talk[0m
+[10.132s] [ 66%] Built target z_talk
+[10.477s] [ 83%] [32m[1mLinking CXX executable webcam_pub[0m
+[10.757s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[10.941s] [100%] [32m[1mLinking CXX executable hough_node[0m
+[11.115s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+[11.116s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408
+[11.117s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[11.795s] [100%] Built target webcam_pub
+[11.830s] [100%] Built target hough_node
+[11.855s] Invoked command in '/home/zk/ros2_ws/build/cam_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zk/ros2_ws/build/cam_pub -- -j6 -l6
+[11.860s] Invoking command in '/home/zk/ros2_ws/build/cam_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zk/ros2_ws/build/cam_pub
+[11.876s] -- Install configuration: ""
+[11.876s] -- Installing: /home/zk/ros2_ws/install/cam_pub/lib/cam_pub/z_talk
+[11.879s] -- Set runtime path of "/home/zk/ros2_ws/install/cam_pub/lib/cam_pub/z_talk" to ""
+[11.879s] -- Installing: /home/zk/ros2_ws/install/cam_pub/lib/cam_pub/webcam_pub
+[11.881s] -- Set runtime path of "/home/zk/ros2_ws/install/cam_pub/lib/cam_pub/webcam_pub" to ""
+[11.881s] -- Installing: /home/zk/ros2_ws/install/cam_pub/lib/cam_pub/hough_node
+[11.882s] -- Set runtime path of "/home/zk/ros2_ws/install/cam_pub/lib/cam_pub/hough_node" to ""
+[11.883s] -- Installing: /home/zk/ros2_ws/install/cam_pub/share/ament_index/resource_index/package_run_dependencies/cam_pub
+[11.884s] -- Installing: /home/zk/ros2_ws/install/cam_pub/share/ament_index/resource_index/parent_prefix_path/cam_pub
+[11.885s] -- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/ament_prefix_path.sh
+[11.885s] -- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/ament_prefix_path.dsv
+[11.885s] -- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/path.sh
+[11.886s] -- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/path.dsv
+[11.886s] -- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.bash
+[11.887s] -- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.sh
+[11.888s] -- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.zsh
+[11.888s] -- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.dsv
+[11.889s] -- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/package.dsv
+[11.891s] -- Installing: /home/zk/ros2_ws/install/cam_pub/share/ament_index/resource_index/packages/cam_pub
+[11.891s] -- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/cmake/cam_pubConfig.cmake
+[11.892s] -- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/cmake/cam_pubConfig-version.cmake
+[11.893s] -- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/package.xml
+[11.899s] Invoked command in '/home/zk/ros2_ws/build/cam_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zk/ros2_ws/build/cam_pub

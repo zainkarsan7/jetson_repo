@@ -1,0 +1,32 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hello_moveit[0m
+[100%] Built target hello_moveit
+-- Install configuration: ""
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/lib/zain_pkg/hello_moveit
+-- Set runtime path of "/home/zk/ros2_ws/install/zain_pkg/lib/zain_pkg/hello_moveit" to ""
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/launch
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/launch/zains_launch.py
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/meshes
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/meshes/board.stl
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/rviz
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/rviz/urdf.rviz
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/urdf
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/urdf/robot_test.srdf
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/urdf/hb_robot.urdf.xacro
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/urdf/robot_test.urdf
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/urdf/hb_robot_macro.xacro
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/ament_index/resource_index/package_run_dependencies/zain_pkg
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/ament_index/resource_index/parent_prefix_path/zain_pkg
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/environment/path.sh
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/environment/path.dsv
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/local_setup.bash
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/local_setup.sh
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/local_setup.zsh
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/local_setup.dsv
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/package.dsv
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/ament_index/resource_index/packages/zain_pkg
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/cmake/zain_pkgConfig.cmake
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/cmake/zain_pkgConfig-version.cmake
+-- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/package.xml

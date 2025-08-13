@@ -1,0 +1,35 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/webcam_pub.dir/src/webcam_publisher.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/z_talk.dir/src/zain_pub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hough_node.dir/src/hough_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable z_talk[0m
+[ 66%] Built target z_talk
+[ 83%] [32m[1mLinking CXX executable webcam_pub[0m
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[100%] [32m[1mLinking CXX executable hough_node[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[100%] Built target webcam_pub
+[100%] Built target hough_node
+-- Install configuration: ""
+-- Installing: /home/zk/ros2_ws/install/cam_pub/lib/cam_pub/z_talk
+-- Set runtime path of "/home/zk/ros2_ws/install/cam_pub/lib/cam_pub/z_talk" to ""
+-- Installing: /home/zk/ros2_ws/install/cam_pub/lib/cam_pub/webcam_pub
+-- Set runtime path of "/home/zk/ros2_ws/install/cam_pub/lib/cam_pub/webcam_pub" to ""
+-- Installing: /home/zk/ros2_ws/install/cam_pub/lib/cam_pub/hough_node
+-- Set runtime path of "/home/zk/ros2_ws/install/cam_pub/lib/cam_pub/hough_node" to ""
+-- Installing: /home/zk/ros2_ws/install/cam_pub/share/ament_index/resource_index/package_run_dependencies/cam_pub
+-- Installing: /home/zk/ros2_ws/install/cam_pub/share/ament_index/resource_index/parent_prefix_path/cam_pub
+-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/ament_prefix_path.sh
+-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/ament_prefix_path.dsv
+-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/path.sh
+-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/environment/path.dsv
+-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.bash
+-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.sh
+-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.zsh
+-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/local_setup.dsv
+-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/package.dsv
+-- Installing: /home/zk/ros2_ws/install/cam_pub/share/ament_index/resource_index/packages/cam_pub
+-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/cmake/cam_pubConfig.cmake
+-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/cmake/cam_pubConfig-version.cmake
+-- Installing: /home/zk/ros2_ws/install/cam_pub/share/cam_pub/package.xml

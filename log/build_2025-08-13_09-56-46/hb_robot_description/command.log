@@ -1,6 +1,0 @@
-Invoking command in '/root/jetson_repo/build/hb_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/jetson_repo/src/hb_robot_description -DCMAKE_INSTALL_PREFIX=/root/jetson_repo/install/hb_robot_description
-Invoked command in '/root/jetson_repo/build/hb_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/jetson_repo/src/hb_robot_description -DCMAKE_INSTALL_PREFIX=/root/jetson_repo/install/hb_robot_description
-Invoking command in '/root/jetson_repo/build/hb_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/jetson_repo/build/hb_robot_description -- -j16 -l16
-Invoked command in '/root/jetson_repo/build/hb_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/jetson_repo/build/hb_robot_description -- -j16 -l16
-Invoking command in '/root/jetson_repo/build/hb_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/jetson_repo/build/hb_robot_description
-Invoked command in '/root/jetson_repo/build/hb_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/jetson_repo/build/hb_robot_description

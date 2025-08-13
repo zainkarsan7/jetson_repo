@@ -1,0 +1,36 @@
+[0.021s] Invoking command in '/home/zk/ros2_ws/build/zain_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zk/ros2_ws/build/zain_pkg -- -j6 -l6
+[0.165s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[16.570s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[19.846s] [100%] Built target hello_moveit
+[19.870s] Invoked command in '/home/zk/ros2_ws/build/zain_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zk/ros2_ws/build/zain_pkg -- -j6 -l6
+[19.878s] Invoking command in '/home/zk/ros2_ws/build/zain_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zk/ros2_ws/build/zain_pkg
+[19.895s] -- Install configuration: ""
+[19.896s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/lib/zain_pkg/hello_moveit
+[19.897s] -- Set runtime path of "/home/zk/ros2_ws/install/zain_pkg/lib/zain_pkg/hello_moveit" to ""
+[19.897s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/launch
+[19.897s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/launch/zains_launch.py
+[19.897s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/meshes
+[19.898s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/meshes/board.stl
+[19.900s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/rviz
+[19.900s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/rviz/urdf.rviz
+[19.901s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/urdf
+[19.901s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/urdf/robot_test.srdf
+[19.902s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/urdf/hb_robot.urdf.xacro
+[19.903s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/urdf/robot_test.urdf
+[19.904s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/urdf/hb_robot_macro.xacro
+[19.905s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/ament_index/resource_index/package_run_dependencies/zain_pkg
+[19.906s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/ament_index/resource_index/parent_prefix_path/zain_pkg
+[19.907s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/environment/ament_prefix_path.sh
+[19.907s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/environment/ament_prefix_path.dsv
+[19.908s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/environment/path.sh
+[19.908s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/environment/path.dsv
+[19.909s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/local_setup.bash
+[19.910s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/local_setup.sh
+[19.910s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/local_setup.zsh
+[19.911s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/local_setup.dsv
+[19.912s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/package.dsv
+[19.913s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/ament_index/resource_index/packages/zain_pkg
+[19.913s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/cmake/zain_pkgConfig.cmake
+[19.914s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/cmake/zain_pkgConfig-version.cmake
+[19.914s] -- Installing: /home/zk/ros2_ws/install/zain_pkg/share/zain_pkg/package.xml
+[19.921s] Invoked command in '/home/zk/ros2_ws/build/zain_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zk/ros2_ws/build/zain_pkg

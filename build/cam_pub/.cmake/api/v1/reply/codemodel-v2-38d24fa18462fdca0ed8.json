@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2b8e651fa8c396506669.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cam_pub",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cam_pub_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cam_pub_uninstall-2aace1ff1d4fab6ff51f.json",
+					"name" : "cam_pub_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hough_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hough_node-6ef7661e408a2a737239.json",
+					"name" : "hough_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5ccf5e267d87364aa5b0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webcam_pub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webcam_pub-d9ffa52cb06476af803d.json",
+					"name" : "webcam_pub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "z_talk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-z_talk-c72498c460b20e684721.json",
+					"name" : "z_talk",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zk/ros2_ws/build/cam_pub",
+		"source" : "/home/zk/ros2_ws/src/cam_pub"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
