@@ -3,7 +3,7 @@
     <xacro:include filename="$(find hb_robot_description)/urdf/hb_robot_macro.xacro"/>
     <xacro:arg name="ur_type" default="ur10e"/>        
     <xacro:arg name="joint_limits_parameters_file" default="$(find ur_description)/config/$(arg ur_type)/joint_limits.yaml"/>
-    <xacro:arg name="kinematics_parameters_file" default="$(find ur_description)/config/$(arg ur_type)/default_kinematics.yaml"/>
+    <xacro:arg name="kinematics_parameters_file" default="package://hb_robot_description/urdf/my_robot_calibration.yaml"/>
     <xacro:arg name="physical_parameters_file" default="$(find ur_description)/config/$(arg ur_type)/physical_parameters.yaml"/>
     <xacro:arg name="visual_parameters_file" default="$(find ur_description)/config/$(arg ur_type)/visual_parameters.yaml"/>
     <link name="world"/>

@@ -25,9 +25,9 @@ def generate_launch_description():
                 {'baudrate': 4000000},
 
                 {'lidar_port': 6101},
-                {'lidar_ip': '192.168.1.62'},
+                {'lidar_ip': '192.168.200.6'},
                 {'local_port': 6201},
-                {'local_ip': '192.168.1.2'},
+                {'local_ip': '192.168.200.5'},
                 
                 {'cloud_frame': "unilidar_lidar"},
                 {'cloud_topic': "unilidar/cloud"},

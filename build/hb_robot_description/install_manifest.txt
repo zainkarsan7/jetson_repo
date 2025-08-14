@@ -1,6 +1,7 @@
 /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/meshes/board.stl
 /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/urdf/hb_robot.urdf.xacro
 /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/urdf/hb_robot.urdf
+/home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/urdf/my_robot_calibration.yaml
 /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/urdf/hb_robot_macro.xacro
 /home/zk/ros2_ws/install/hb_robot_description/share/ament_index/resource_index/package_run_dependencies/hb_robot_description
 /home/zk/ros2_ws/install/hb_robot_description/share/ament_index/resource_index/parent_prefix_path/hb_robot_description

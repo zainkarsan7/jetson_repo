@@ -27,6 +27,7 @@
 /home/zk/ros2_ws/install/hb_robot_moveit_config/share/hb_robot_moveit_config/config/hb_robot.srdf
 /home/zk/ros2_ws/install/hb_robot_moveit_config/share/hb_robot_moveit_config/config/hb_robot.ros2_control.xacro
 /home/zk/ros2_ws/install/hb_robot_moveit_config/share/hb_robot_moveit_config/config/joint_limits.yaml
+/home/zk/ros2_ws/install/hb_robot_moveit_config/share/hb_robot_moveit_config/config/ros2_controllers.yaml
 /home/zk/ros2_ws/install/hb_robot_moveit_config/share/hb_robot_moveit_config/config/kinematics.yaml
 /home/zk/ros2_ws/install/hb_robot_moveit_config/share/hb_robot_moveit_config/config/pilz_cartesian_limits.yaml
 /home/zk/ros2_ws/install/hb_robot_moveit_config/share/hb_robot_moveit_config/config/moveit_controllers.yaml
