@@ -1,0 +1,11 @@
+[0.020s] Invoking command in '/home/zk/ros2_ws/build/hb_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zk/ros2_ws/build/hb_robot_description -- -j6 -l6
+[0.098s] Invoked command in '/home/zk/ros2_ws/build/hb_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zk/ros2_ws/build/hb_robot_description -- -j6 -l6
+[0.121s] Invoking command in '/home/zk/ros2_ws/build/hb_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zk/ros2_ws/build/hb_robot_description
+[0.139s] -- Install configuration: ""
+[0.140s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.140s]   file INSTALL cannot find
+[0.140s]   "/home/zk/ros2_ws/src/hb_robot_description/launch": No such file or
+[0.140s]   directory.
+[0.140s] 
+[0.140s] [0m
+[0.143s] Invoked command in '/home/zk/ros2_ws/build/hb_robot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zk/ros2_ws/build/hb_robot_description

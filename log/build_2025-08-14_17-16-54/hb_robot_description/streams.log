@@ -1,0 +1,27 @@
+[0.019s] Invoking command in '/home/zk/ros2_ws/build/hb_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zk/ros2_ws/build/hb_robot_description -- -j6 -l6
+[0.098s] Invoked command in '/home/zk/ros2_ws/build/hb_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zk/ros2_ws/build/hb_robot_description -- -j6 -l6
+[0.119s] Invoking command in '/home/zk/ros2_ws/build/hb_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zk/ros2_ws/build/hb_robot_description
+[0.136s] -- Install configuration: ""
+[0.136s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/meshes
+[0.136s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/meshes/board.stl
+[0.136s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/urdf
+[0.137s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/urdf/hb_robot.urdf.xacro
+[0.137s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/urdf/hb_robot.urdf
+[0.137s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/urdf/my_robot_calibration.yaml
+[0.137s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/urdf/hb_robot_macro.xacro
+[0.137s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/ament_index/resource_index/package_run_dependencies/hb_robot_description
+[0.137s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/ament_index/resource_index/parent_prefix_path/hb_robot_description
+[0.137s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/environment/ament_prefix_path.sh
+[0.137s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/environment/ament_prefix_path.dsv
+[0.139s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/environment/path.sh
+[0.139s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/environment/path.dsv
+[0.139s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/local_setup.bash
+[0.140s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/local_setup.sh
+[0.140s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/local_setup.zsh
+[0.140s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/local_setup.dsv
+[0.140s] -- Installing: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/package.dsv
+[0.140s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/ament_index/resource_index/packages/hb_robot_description
+[0.140s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/cmake/hb_robot_descriptionConfig.cmake
+[0.140s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/cmake/hb_robot_descriptionConfig-version.cmake
+[0.140s] -- Up-to-date: /home/zk/ros2_ws/install/hb_robot_description/share/hb_robot_description/package.xml
+[0.145s] Invoked command in '/home/zk/ros2_ws/build/hb_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zk/ros2_ws/build/hb_robot_description
